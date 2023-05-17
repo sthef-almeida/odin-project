@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .conteudo_do_menu {
+    display: flex;
+    justify-content: center; 
+    background-color:#0a2848;
+    color: rgb(200, 133, 9);
+    padding: 20px 0;
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center; 
+  }
+
+  .menu {
+     border: 1px solid #ffffff; /*importante para ver o espaço onde cada palavra está ocupando mas não é necessário */
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cont_cabecalho{
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+  .cabecalho{
+    width: 900px;
+    height: 300px;
+    /* esses dois definiram o tamanho que esse cabeçalho ocupou na página */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* o align itens é vertical! diferente do justify-content que é horizontal */
+  }
+.inscreva-se{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0d2b4d;
+}
+  /* .social, .logo, .subscribe {
+    /* border: 2px solid #0d2b4d; */
+
+  /* a borda mostra o espaço que cada elemento está ocupando */
+  /* aqui também percebi que para declarar mais de uma classe no mesmo grupo tem que usar , e depois o .nomedaclasse */
+
+
+  /* -------alinhar imagens----------- */
+
+  .conteudo_fotos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  /* nesse momento eu adicionei mais duas imagens do mesmo tamanho e elas saíram da página, então usando o flwx-wrap:wrap elas ficaram abaixo e roláveis */
+
+  /* .grid_foto{
+    width: 900px;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+   isso não funcionou pois deixou as imagens uma abaixo da outra numa coluna então adicionei o flex-direction: column; align-items: center; */ 
+  
+  .grid_foto{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse;  /* <--- Really freaking cool! (era pra as imagens ficarem em ordens invertidas mas não ficou */
+    align-items: center;
+
+ }
+
+ .rodape{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .item_rodape{
+    border: 2px solid #f9f9f9;
+    background-color: #6a9fdb;
+    height: 200px;
+    flex:1; 
+    /* de novo esse flex1 fez as caixas aparecerem, todos os comandos anteriores não estavam funcionando até adicionar */
+ }
+
+
+ .rodape_1, .rodape_3 {
+    background-color: #0e2946;
+    flex: initial;
+    width: 300px;
+ }

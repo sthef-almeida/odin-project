@@ -1,0 +1,39 @@
+* {
+    border: 2px solid rgba(198, 14, 204, 0.8);
+  } 
+  
+  .titulo-1{
+    padding:10px;
+    margin: 20px ;
+    text-align: center;
+  }
+
+  .titulo-2{
+    text-align: center;
+  }
+
+ /* ------centralizando botões------- */
+  .botoes{
+  background-color: aliceblue;
+  color: black;
+  text-align: center;
+  }
+
+  .btn{
+    background-color: rgb(219, 227, 219);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+
+  }
+
+  .caixinha{
+    padding:10% ;
+    border-style: dotted; 
+    margin:20px ;
+  }
+
+  /* ------------------------------------- */
+  

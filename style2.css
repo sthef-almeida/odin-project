@@ -1,0 +1,43 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.flexbox{
+        display: flex;  
+        /* se essa função estiver desativada, os blocos ficam um abaixo do outro */
+  }
+
+  .flexbox div{
+    margin: 10px;
+    background: rgb(208, 206, 209);
+    border: 4px solid rgb(117, 17, 160);
+    height: 100px;
+    flex: 1; 
+    /* se essa função flex estiver desativada os blocos não existem */
+  }
+  .flexbox > .bloco_2{
+    flex: 2;
+    text-align: center;
+  }
+  
+  /* o sinal de maior que especifica a classe que está dentro do conteúdo */
+  .flexbox > .bloco_3{
+    flex: 2;
+    text-align: center;
+  }
+/* o flex: 2 serve para indicacr que esse bloco terá o dobro do tamanho do display flex comum */
+
+  .bloco_1{
+    display: flex;
+    align-items: center;
+  }
+
+  .bloco_bacana{
+    padding: 50px ;
+    text-align: center;
+    background: rgb(208, 206, 209);
+    border: 4px solid rgb(117, 17, 160);
+    height: 100px;
+    flex: 1; 
+  }
+
